@@ -1,0 +1,18 @@
+$color-main: #28B472;
+$color-gradation: linear-gradient(270deg, #28B472 0%, #28B0B5 76.04%);
+$color-accent: #B52D28;
+$color-link: #337ab7;
+$color-button: #515151;
+$color-layer: #ECF4F2;
+
+.-layer{
+  background: $color-layer;
+}
+
+.-photo{
+  background: url(../images/top/main-visual.jpeg) no-repeat center center/cover;
+}
+
+.-gradation{
+  background: $color-gradation !important;
+}

@@ -1,0 +1,16 @@
+.c-grid__contents{
+  display: contents;
+}
+
+.c-grid{
+  display: flex;
+  flex-direction: column;
+}
+
+.c-grid__img, .p-section-title, .c-section-txt, .c-links{
+  order: -1;
+}
+
+.c-grid__img{
+  margin: 16px 0;
+}
