@@ -1,0 +1,42 @@
+
+
+.p-table__main{
+  overflow-x: auto;
+  margin-top: 24px;
+  max-width: 100%;
+}
+
+.p-table__body{
+    min-width: 580px;
+    border-bottom: 1px solid #e5e5e5;;
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+    width: 100%;
+  th{
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    background: $color-layer;
+    width: 25%;
+    font-weight: normal;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+
+  td{
+    border-right: 1px dashed #e5e5e5;
+    width: 25%;
+  }
+
+  tr{
+    border-bottom: 1px dashed #e5e5e5;
+  }
+}
+
+.p-table__note{
+  font-size: 0.9rem;
+  padding-top: 12px;
+}
+
+.p-table__text{
+  padding-bottom: 10px;
+}

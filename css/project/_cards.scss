@@ -1,0 +1,22 @@
+.p-cards{
+  margin-top: 32px;
+
+  @include mq('md'){
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.p-cards__item{
+  padding-bottom: 24px;
+
+  @include mq('md'){
+    width: calc(90% / 2);
+  }
+
+  @include mq('lg'){
+    width: calc(90% / 3);
+  }
+  
+}

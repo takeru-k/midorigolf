@@ -1,0 +1,17 @@
+.p-section-heading{
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  padding-top: 36px;
+
+  &:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 32px;
+    background-color: $color-main;
+  }
+}

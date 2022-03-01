@@ -5,12 +5,22 @@
 
 @import "layout/_header.scss";
 @import "layout/_footer.scss";
+@import "layout/_container.scss";
 
 @import "project/_main-visual.scss";
 @import "project/_top-news.scss";
 @import "project/_news.scss";
 @import "project/_section-title.scss";
 @import "project/_cta.scss";
+@import "project/_section-heading.scss";
+@import "project/_cards.scss";
+@import "project/_map.scss";
+@import "project/_faqs.scss";
+@import "project/_section-contents.scss";
+@import "project/_info-box.scss";
+@import "project/_table.scss";
+@import "project/_schedule.scss";
+@import "project/_article.scss";
 
 @import "component/_openBtn.scss";
 @import "component/_block.scss";
@@ -19,3 +29,9 @@
 @import "component/_grid.scss";
 @import "component/_links.scss";
 @import "component/_flex.scss";
+@import "component/_section.scss";
+@import "component/_card.scss";
+@import "component/_faq.scss";
+@import "component/_whiteboard.scss";
+@import "component/_calender.scss";
+@import "component/_toggle.scss";

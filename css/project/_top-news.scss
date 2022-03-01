@@ -1,14 +1,8 @@
-.p-top-news__title{
-  color: #fff;
-  background: $color-gradation;
-  text-align: center;
-  padding: 24px 0 40px;
-  font-size: 20px;
-}
+.p-top-news__link{
+  padding-top: 16px;
 
-.p-top-news__content{
-  background: #fff;
-  width: 88%;
-  margin: -24px auto 0;
-  padding: 12px;
+  @include mq('lg'){
+    text-align: center;
+    padding-top: 32px;
+  }
 }

@@ -1,8 +1,18 @@
+.c-flex{
+  @include mq('lg'){
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .c-flex__item{
   padding: 2rem 2.5rem;
   background: #fff;
-  border-radius: 5px;
   margin-bottom: 20px;
+
+  @include mq('lg'){
+    width: 30%;
+  }
 }
 
 .c-flex__img{

@@ -1,0 +1,5 @@
+.l-container{
+  @include mq('lg'){
+    padding-top: 32px;
+  }
+}

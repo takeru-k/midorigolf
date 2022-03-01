@@ -1,0 +1,41 @@
+.c-faq{
+  dt{
+    display: flex;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: $color-main;
+    
+    &:before{
+      content: 'Q';
+      background: $color-gradation;
+      color: #fff;
+      width: 32px;
+      height: 32px;
+      display: inline-block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+    }
+  }
+
+  dd{
+    display: flex;
+    font-size: 0.9rem;
+
+    &:before{
+      content: 'A';
+      background: $color-accent;
+      color: #fff;
+      width: 32px;
+      height: 32px;
+      display: inline-block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      padding: 10px;
+      font-weight: bold;
+    }
+  }
+}

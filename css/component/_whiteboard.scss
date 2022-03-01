@@ -1,0 +1,49 @@
+.c-whiteboard{
+  background: #fff;
+  padding: 1rem 1.5rem 0;
+
+  dl{
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+
+    &:not(:last-child){
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    @include mq('md'){
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  dt{
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding-top: 16px;
+
+    span{
+      background: $color-gradation;
+      color: #fff;
+      height: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+  }
+
+  dd{
+    padding-top: 8px;
+
+    @include mq('md'){
+      margin-left: 16px;
+      padding-top: 12px;
+    }
+  }
+}
+
+.-strong{
+  font-weight: bold;
+  width: 200px !important;
+}

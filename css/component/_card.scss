@@ -1,0 +1,20 @@
+.c-card__meta{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-card__title{
+  font-size: 16px;
+  background: $color-gradation;
+  padding: 4px 8px;
+  color: #fff;
+}
+
+.c-card__img{
+  padding: 8px 0;
+}
+
+.c-card__yard{
+  font-weight: bold;
+}
